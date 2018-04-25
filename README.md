@@ -32,7 +32,9 @@ There are 7 algorithms used in this problem and compared together.
 * [ExtraTreesClassifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html)
 
 ## Results:
-The best algorithm in terms of logloss is SVClassifier but it takes huge time in training.
-ExtraTreesClassifier is the also good but need huge amount of resources especially memory.
-The chosen algorithm is MLPClassifier as it is the most suitable one
-Final score = 2.67607
+* The best algorithm in terms of logloss is SVClassifier but it takes huge time in training.
+* ExtraTreesClassifier is the also good but need huge amount of resources especially memory.
+* XGB is good at small training data.
+* The chosen algorithm is MLPClassifier as it is the most suitable one.
+
+Final score on kaggle = 2.67607
