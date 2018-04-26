@@ -14,7 +14,14 @@ provides nearly 12 years of crime reports from across all of San Francisco's
 neighborhoods. This is a multi-class classification problem, given time and
 location, the goal is to predict the category of crime that occurred.
 
-## Data
+## software and libraries used:
+* [ipython notebook](https://ipython.org/ipython-doc/3/notebook/)
+* [pandas](https://pandas.pydata.org/pandas-docs/stable/) 
+* [numpy](https://docs.scipy.org/doc/)
+* [basemap](https://matplotlib.org/basemap/api/basemap_api.html#module-mpl_toolkits.basemap)
+* [matplot](https://matplotlib.org/contents.html)
+
+## Data:
 You can download data sets from kaggle link:
 https://www.kaggle.com/c/sf-crime/data
 
@@ -38,3 +45,4 @@ There are 7 algorithms used in this problem and compared together.
 * The chosen algorithm is MLPClassifier as it is the most suitable one.
 
 Final score on kaggle = 2.67607
+
